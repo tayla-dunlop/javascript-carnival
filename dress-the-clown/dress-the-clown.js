@@ -98,7 +98,7 @@ function changeHorizontal(shift) {
   //has a value
   indexes[mainIndex] = index
 
-  //this line here is how all the different are selected when an arrow key is hit.
+  //this line here is how all the different images are selected when an arrow key is hit.
   //the image source equals the images folder, plus the str variable(so we know what part of the body) plus
   //the index so that the js can link with the html and then plus png at the end of the image.
   image.src = './images/' + str + index + '.png'
